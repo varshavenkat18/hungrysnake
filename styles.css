@@ -1,0 +1,66 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #34e89e, #0f3443);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the Snake Game */
+.container {
+    text-align: center;
+    background-color: #ffffffcc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Game Title */
+h1 {
+    color: #0f3443;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Canvas for the Snake Game */
+#gameCanvas {
+    background-color: #fafafa;
+    border: 2px solid #0f3443;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Score Display */
+#score {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #0f3443;
+}
+
+/* Restart Button */
+#restartBtn {
+    background-color: #34e89e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#restartBtn:hover {
+    background-color: #0f3443;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
